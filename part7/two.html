@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New element in DOM</title>
+</head>
+<body style="background-color: black; color: aqua">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+  const parent = document.querySelector('.parent');
+  console.log(parent);
+  console.log(parent.children);
+  // htmlcollection 
+ console.log(parent.children[1].innerHTML);
+
+  for ( let i = 0; i < parent.children.lenth; i++){
+      console.log(parent.children[i].innerHTML);
+  }
+  parent.children[1].style.color = "white"
+  console.log(parent.firstElementChild);
+  console.log(parent.lastElementChild);
+
+  const dayone = document.querySelector('.day');
+  console.log(dayone);
+  console.log(dayone.parentElement); 
+  console.log(dayone.nextElementSibling); //tuesday
+
+  console.log("Nodes : ", parent.childNodes)
+  //NodeList(9) [text, div.day, text, div.day, text, div.day, text, div.day, text] 
+  //0 : text 1 : div.day 2 : text 3 : div.day 4 : text 5 : div.day 6 : text 7 : div.day 8 : text length : 9 
+  
+  console.log(document.querySelectorAll('.day'))
+  //NodeList(4) [div.day, div.day, div.day, div.day]
+</script>
+</html>

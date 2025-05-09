@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black;color:rgb(0, 255, 4)">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+    
+</body>
+<script>
+   
+    function addLanguage(LangName){
+         const li = document.createElement('li');
+         li.innerHTML = `${LangName}`
+         document.querySelector('.language').appendChild(li)
+    }
+    addLanguage('python')
+    addLanguage('Java')
+
+    //more optimized way
+    function addoptilanguage(LangName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(`${LangName}`))
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage('golang')
+    
+
+    //edit
+    const nth = document.querySelector('li:nth-child(2)')
+    const newli = document.createElement('li')
+    newli.textContent = "React"
+    nth.replaceWith(newli)
+
+    //edit
+    const thirdlang = document.querySelector('li:nth-child(3)')// java
+    thirdlang.outerHTML = "<li>TypeScript</li>"
+
+    //remove
+    const lastlang = document.querySelector('li:last-child')
+    lastlang.remove()
+
+
+</script>
+</html>
+
+          

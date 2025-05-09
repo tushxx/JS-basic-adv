@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS series</title>
+</head>
+<body style="background-color: black;color:rgb(255, 0, 0)">
+    
+</body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main";
+    // div.id = "myid"; 
+    div.id = Math.random();
+    div.setAttribute("title", "generated title") //this donot overwrite
+
+    div.style.backgroundColor = "white"
+    div.style.padding = "15px"
+
+    // div.innerText = "hello from Tushar"//this overwrite
+    const addtext = document.createTextNode("hello from tush"); //this will set the value not overwrite it
+    div.appendChild(addtext)
+
+    //till now this is not visible on page,,its in memory
+    //attaching--->>
+    document.body.appendChild(div)
+
+    
+    //<div class="main" id="0.41951576337410634" title="generated title" style="background-color: white; padding: 15px;">hello from tush</div>
+
+</script>
+</html>
