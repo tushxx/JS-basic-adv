@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASYNC JS</title>
+</head>
+<style>
+    html {
+        background-color: #000000;
+        color :rgb(169, 207, 240)
+    }
+</style>
+<body>      
+    <h1>Tushar Shirke</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <div></div>
+</body>
+<script>
+    const iteration = (name) => console.log("tush", Date.now())
+    //setInterval(iteration, 2000)
+
+    let interval;
+    document.querySelector("#start").addEventListener("click", function(){
+          const iteration2 = (name) => console.log(name, Date.now())
+          interval = setInterval(iteration2, 1000, "hii")
+    })
+
+//stopped
+    document.querySelector("#stop").addEventListener("click", function(){
+        clearInterval(interval)
+        interval = null;
+    })
+     
+</script>
+</html>
