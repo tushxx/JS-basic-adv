@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+    <button>Click me</button>
+</body>
+<script>
+    class react{
+        constructor(){
+            this.library = "React"
+            this.server = "https://localhost:300"
+
+            //requirement -->.after page is load, your object should be created
+            // we should get reference of button, and console.log something after clicking 
+            document
+                .querySelector('button')
+                .addEventListener('click', this.handleclick.bind(this))     
+        }
+        handleclick(){
+            console.log("button clicked")
+            console.log(this.server)
+        }
+    }
+
+    const app = new react()
+</script>
+</html>
+
+<!-- bind() is a method in JavaScript that sets the 'this' value of a function permanently and returns a new function. -->
+
+
