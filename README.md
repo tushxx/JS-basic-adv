@@ -31,17 +31,18 @@ This repository contains JavaScript programs and practice files covering both **
 
    ```bash
    git clone https://github.com/tushxx/JS-basic-adv.git
-Open the folder in your favorite IDE or code editor (e.g., VS Code).
 
-Run HTML files in the browser or execute .js files using Node.js (if applicable).
+2. Open the folder in your favorite IDE or code editor (e.g., VS Code).
 
-🙋‍♂️ Who is this for?
+3. Run HTML files in the browser or execute .js files using Node.js (if applicable).
 
-Beginners who want to learn JavaScript from scratch.
+## 🙋‍♂️ Who is this for?
 
-Intermediate learners revising or preparing for interviews.
+  Beginners who want to learn JavaScript from scratch.
 
-Anyone who wants ready-to-run examples and well-commented code for JS concepts.
+  Intermediate learners revising or preparing for interviews.
+
+  Anyone who wants ready-to-run examples and well-commented code for JS concepts.
 
 
 ## 🧑‍💻 Author
