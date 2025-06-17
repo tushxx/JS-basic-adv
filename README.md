@@ -44,9 +44,11 @@ Intermediate learners revising or preparing for interviews.
 Anyone who wants ready-to-run examples and well-commented code for JS concepts.
 
 
-🧑‍💻 Author
-Tushar Shirke
-GitHub Profile
+## 🧑‍💻 Author
+
+**Tushar Shirke**  
+[GitHub Profile](https://github.com/tushxx)
+
 
 ⭐️ Support
 If you find this helpful, feel free to give it a ⭐ on GitHub!
