@@ -36,14 +36,11 @@ Open the folder in your favorite IDE or code editor (e.g., VS Code).
 Run HTML files in the browser or execute .js files using Node.js (if applicable).
 
 🙋‍♂️ Who is this for?
+
 Beginners who want to learn JavaScript from scratch.
-
 Intermediate learners revising or preparing for interviews.
-
 Anyone who wants ready-to-run examples and well-commented code for JS concepts.
 
-
-Stay tuned! 🔥
 
 🧑‍💻 Author
 Tushar Shirke
