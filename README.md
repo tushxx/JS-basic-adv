@@ -54,6 +54,3 @@ If you find this helpful, feel free to give it a ⭐ on GitHub!
 
 ---
 
-You can **create a file named `README.md`** in your project root and paste the above content into it.
-
-Let me know if you want it more **casual, technical, or styled differently**!
