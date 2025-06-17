@@ -20,7 +20,8 @@ This repository contains JavaScript programs and practice files covering both **
 - Closures
 - Callbacks and Promises
 - ES6+ Features (let/const, spread/rest, destructuring)
-- DOM Manipulation (if included later)
+- DOM Manipulation
+- OOP Concept
 
 ---
 
