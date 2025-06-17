@@ -1,8 +1,32 @@
-# js-basic-adv series
-A code repo for javascript series 
+# JS Basic & Advanced
 
-part1 - operation, datatypes,etc
-part2- primitive, non-primitive
-part3- control flow(if..else, switch, truthy_falsy)
-part4- loops, arrays, objects
-part5- functions, scopes, this, iife, execution_callstack
+This repository contains JavaScript programs and practice files covering both **basic** and **advanced** concepts. It's designed as a personal learning project to strengthen foundational skills and explore core features of JavaScript.
+
+---
+
+## 📚 Topics Covered
+
+### ✅ Basics
+- Variables and Data Types
+- Operators and Expressions
+- Control Structures (if, else, switch)
+- Loops (for, while, do-while)
+- Functions (declaration, expression, arrow)
+
+### ⚙️ Intermediate to Advanced
+- Arrays and Array Methods
+- Objects and Object Manipulation
+- Scope (global, local, block)
+- Closures
+- Callbacks and Promises
+- ES6+ Features (let/const, spread/rest, destructuring)
+- DOM Manipulation (if included later)
+
+---
+
+## 📦 How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/tushxx/JS-basic-adv.git
